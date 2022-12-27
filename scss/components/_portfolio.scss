@@ -1,0 +1,94 @@
+.portfolio {
+  padding: 94px 0;
+}
+.portfolio__list--btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 8px;
+}
+.list__btn {
+  padding: 6px 25px;
+  color: var(--primary-title-color);
+  background-color: var(--secondary-bg-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  transition: color 250ms var(--line-function),
+    background-color 250ms var(--line-function),
+    box-shadow 250ms var(--line-function);
+}
+.list__btn:active,
+.list__btn:hover,
+.list__btn:focus {
+  color: var(--secondary-text-color);
+  background-color: var(--acent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.portfolio__list--info {
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis: 370px;
+  gap: 30px;
+}
+.portfolio__link {
+  transition: box-shadow 250ms var(--line-function);
+}
+.portfolio__link:hover,
+.portfolio__link:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.portfolio__image {
+  position: relative;
+  overflow: hidden;
+}
+.portfolio__hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+  background-color: var(--acent-color);
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 250ms var(--line-function),
+    transform 250ms var(--line-function);
+}
+.portfolio__link:hover .portfolio__hidden {
+  opacity: 1;
+  transform: translateY(0);
+}
+.portfolio__hidden--text {
+  padding: 0 24px;
+  color: var(--secondary-text-color);
+  font-size: 18px;
+  line-height: 1.56;
+}
+.portfolio-list-info {
+  padding: 20px 24px;
+  border-left: 1px solid var(--border-color-two);
+  border-bottom: 1px solid var(--border-color-two);
+  border-right: 1px solid var(--border-color-two);
+}
+.portfolio__title {
+  margin-bottom: 4px;
+  color: var(--primary-title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio__subtitle {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
