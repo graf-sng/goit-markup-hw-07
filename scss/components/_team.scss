@@ -1,10 +1,10 @@
 .team {
   padding: 94px 0;
-  background-color: var(--secondary-bg-color);
+  background-color: $secondary-bg-color;
 }
 .team__title {
   margin-bottom: 50px;
-  color: var(--primary-title-color);
+  color: $primary-title-color;
   font-size: 36px;
   font-weight: 700;
   text-align: center;
@@ -19,14 +19,14 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   text-align: center;
-  background-color: var(--secondary-text-color);
+  background-color: $secondary-text-color;
 }
 .team__info {
   padding: 30px 0;
 }
 .team__info--title {
   margin-bottom: 10px;
-  color: var(--primary-title-color);
+  color: $primary-title-color;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -47,15 +47,14 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  color: var(--icon-color);
-  background-color: var(--secondary-text-color);
-  transition: color 250ms var(--line-function),
-    background-color 250ms var(--line-function);
+  color: $icon-color;
+  background-color: $secondary-text-color;
+  transition: color 250ms $line-function, background-color 250ms $line-function;
 }
 .team__link:hover,
 .team__link:focus {
-  color: var(--secondary-text-color);
-  background-color: var(--acent-color);
+  color: $secondary-text-color;
+  background-color: $acent-color;
 }
 .team__icon--svg {
   fill: currentColor;

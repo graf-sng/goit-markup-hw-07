@@ -1,5 +1,5 @@
 .logo {
-  color: var(--acent-color);
+  color: $acent-color;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -7,10 +7,10 @@
   text-decoration: none;
 }
 .logo--black {
-  color: var(--black-color);
+  color: $black-color;
 }
 .logo--white {
   display: inline-block;
   margin-bottom: 20px;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }

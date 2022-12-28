@@ -3,7 +3,7 @@
 }
 .clients__title {
   margin-bottom: 50px;
-  color: var(--primary-title-color);
+  color: $primary-title-color;
   font-size: 36px;
   font-weight: 700;
   text-align: center;
@@ -18,16 +18,15 @@
   align-items: center;
   width: 170px;
   height: 92px;
-  border: 1px solid var(--icon-color);
+  border: 1px solid $icon-color;
   border-radius: 4px;
-  color: var(--icon-color);
-  transition: color 250ms var(--line-function),
-    border 250ms var(--line-function);
+  color: $icon-color;
+  transition: color 250ms $line-function, border 250ms $line-function;
 }
 .clients__link:hover,
 .clients__link:focus {
-  color: var(--acent-color);
-  border: 1px solid var(--acent-color);
+  color: $acent-color;
+  border: 1px solid $acent-color;
 }
 .clients__icon {
   fill: currentColor;

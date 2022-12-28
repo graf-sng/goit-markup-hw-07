@@ -7,7 +7,7 @@
   flex-direction: row;
   align-items: baseline;
   column-gap: 92px;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 .address__list {
   display: flex;
@@ -19,11 +19,11 @@
   font-weight: 400;
   line-height: 1.71;
   font-style: normal;
-  transition: color 250ms var(--line-function);
+  transition: color 250ms $line-function;
 }
 .address__link:hover,
 .address__link:focus {
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 .cosial__subtitle,
 .feedback__subtitle {
@@ -32,7 +32,7 @@
   font-size: 14px;
   line-height: 1.142;
   text-transform: uppercase;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 .cosial__list {
   display: flex;
@@ -45,18 +45,17 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
   background-color: rgba(255, 255, 255, 0.1);
-  transition: background-color 250ms var(--line-function);
+  transition: background-color 250ms $line-function;
 }
 .cosial__link:hover,
 .cosial__link:focus {
-  background-color: var(--acent-color);
+  background-color: $acent-color;
 }
 .cosial__icon {
   fill: currentColor;
 }
-/*  */
 .feedback__input {
   padding-left: 15px;
   margin-right: 11px;
