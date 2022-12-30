@@ -13,15 +13,15 @@
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-}
-.hero__title {
-  margin: 0 auto 30px;
-  max-width: 696px;
-  color: $secondary-text-color;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  &__title {
+    margin: 0 auto 30px;
+    max-width: 696px;
+    color: $secondary-text-color;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
 }
